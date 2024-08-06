@@ -1,13 +1,68 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.qr-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+
+}
+.qr-container img{
+  margin: 20px;
+}
+.qr-input input{
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid rgb(23, 230, 230);
+  outline: none;
+  margin: 10px;
+}
+.qr-container button{
+  padding:6px ;
+  border-radius: 5px;
+
+}
+
+.qr-container h2{
+  color: rgb(5, 185, 185);
+}
+.qr-container label{
+  margin: 10px;
+}
+.gene{
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+
+}
+.dwn{
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+}
+.gene:hover{
+  background-color: rgb(105, 105, 235);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.dwn:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: rgb(7, 181, 7);
+
+
+
+
 }
